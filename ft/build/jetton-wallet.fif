@@ -215,8 +215,8 @@ PROGRAM{
       STSLICER	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address _55
       ENDC	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body
       1 PUSHINT	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1
-      24 PUSHINT	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _59=24
-      NEWC	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _59=24 _60
+      16 PUSHINT	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _59=16
+      NEWC	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _59=16 _60
       6 STU	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _62
       s4 PUSH	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _62 owner_address
       STSLICER	//  jetton_wallet_code response_address query_id msg_value forward_ton_amount balance owner_address jetton_master_address msg_body _58=1 _63
